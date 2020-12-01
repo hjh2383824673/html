@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎访问</title>
+</head>
+<style>
+    nav {
+        float: left;
+        color: rgb(230, 20, 195);
+    }
+
+    aside {
+        float: right;
+    }
+
+    main {
+        width: 1536px;
+        height: 753px;
+        /* background-color:red; */
+    }
+
+    section {
+        width: 100%;
+        height: 318px;
+    }
+
+    nav,
+    aside {
+        width: 450px;
+        height: 308px;
+        color: red;
+        /* font-size: 50px; */
+    }
+
+    #sd {
+        width: 430px;
+        height: 308px;
+    }
+
+    #xm {
+        color: red;
+        float: left;
+        margin-left: 50px;
+        font: 16px/42px Arial, sans-serif;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    article {
+        width: 615px;
+        height: 308px;
+        float: left;
+        margin-left: 10px;
+        
+    }
+
+    header {
+        width: 1488px;
+        height: 60px;
+        padding: 0 24px 0 24px;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-image: url(图怪兽_2fca2375e9d600ca9a83553022eaeab4_77866.png);
+        background-size: 1536px 753px;
+    }
+
+    #box {
+        width: 480px;
+        height: 300px;
+        margin: 50px auto;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #box ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        position: absolute;
+        width: 3000px;
+    }
+
+    #box ul li {
+        overflow: hidden;
+        float: left;
+    }
+
+    #box ol {
+        list-style: none;
+        position: absolute;
+        bottom: 8px;
+        left: 280px;
+    }
+
+    #box ol li {
+        float: left;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: #ccc;
+        margin-right: 10px;
+    }
+
+    #left,
+    #right {
+        width: 50px;
+        height: 80px;
+        background-color: rgba(0, 0, 0, 0.2);
+        color: #fff;
+        font-size: 30px;
+        line-height: 80px;
+        text-align: center;
+        display: none;
+        position: absolute;
+        top: 110px;
+    }
+
+    #left {
+        left: 0;
+    }
+
+    #right {
+        right: 0;
+    }
+    * {
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            list-style: none;
+        }
+        .box {
+            width: 500px;
+            height: 300px;
+            border: 1px solid #ddd;
+            margin: 50px auto;
+        }
+        .tabName {
+            height: 28px;
+        }
+        .tabName span {
+            display: inline-block;
+            width: 120px;
+            height: 100%;
+            background-color: blanchedalmond;
+            text-align: center;
+            cursor: pointer;
+        }
+        .tabName span.current {
+            background-color: aquamarine;
+        }
+        /* .tabBody {
+            height: 260px;
+        } */
+        .tabBody div {
+            height: 272px;
+            display: none;
+        }
+        .tabBody div.current {
+            display: block;
+        }
+</style>
+
+<body>
+    <main>
+        <section>
+            <nav>
+                <div id="xm">
+                    <div>姓名：黄家豪；学号201916180215(本人)</div>
+                    <div>简介：一个平平凡凡、普普通通的人</div>
+                    <div>姓名：易玉豪；学号201916180214(前一人)</div>
+                    <div>姓名：彭杰；学号201916180216(后一人)</div>
+                </div>
+            </nav>
+            <article>
+                <div id="box" class="all">
+                    <div class="screen">
+                        <ul>
+                            <li><img src="牛肉面1.jpg" width="480px" height="300px" alt="">
+                            <li><img src="牛肉面2.jpg" width="480px" height="300px" alt="">
+                            <li><img src="牛肉面3.jpg" width="480px" height="300px" alt="">
+                            <li><img src="牛肉面4.jpg" width="480px" height="300px" alt="">
+                            <li><img src="牛肉面5.jpg" width="480px" height="300px" alt="">
+                        </ul>
+                        <ol></ol>
+                    </div>
+                    <div>
+                        <span id="left">&lt;</span>
+                        <span id="right">&gt;</span>
+                    </div>
+                </div>
+            </article>
+            <aside>
+                <a href="网址1">购买链接1</a>
+                <p></p>
+                <a href="网址2">购买链接2</a>
+            </aside>
+        </section>
+        <div></div>
+        <div></div>
+        <section>
+            <nav>
+                <div id="sd">据说，襄阳牛肉面早传于清朝康熙元年（公元1662年），迄今已有三百多年历史。历代襄阳人都继承和发展了祖先的精湛技艺，使得老襄阳牛肉面一直保持着她的独特风味。历史的年轮把这三百多年前的好面带到我们的面前，历经数代传承，始终保持传统风味。三百年前的韵味悠远映数百年仁者沉淀之智食，老襄阳牛肉面乃中华饮食文化之精髓。
+
+                    如今的襄阳，约有4000多家家族式、夫妻式、合伙式、连锁式在襄阳的街道上经营者，每天消耗的面条达20余万斤，在其发源地——教门街，有樊城区排名前三的面馆分别是一桥头面馆、邓家牛腩面、赛家金多牛肉面（排名不分前后）。
+                    
+                    襄阳城，这个一听名字就是有一股侠气的城市是位于湖北省的西北方，汉江水穿城而过，分成襄城和樊城两个大区。有着2800多年的建制历史，是国家历史文化名城，楚文化、汉文化、三国文化的主要发源地，诸葛亮（不是王者荣耀里的会龟派气功的法师）的隐居古隆中就在此，素有“华夏第一城”、“兵家必争之地”“铁打的襄阳”之称。
+                    
+                    襄阳沿江而建城，所以码头林立，在明清时期，有许多外省的商帮在此聚集，最为出名的便是山西和陕西的商帮，现市二中还保留着樊城最为精美的会馆——山陕会馆。</div>
+            </nav>
+            <article><div class="box">
+                <div class="tabName" id="tabName">
+                    <span class="current">介绍</span>
+                    <span>特点</span>
+                    <span>启动申遗</span>
+                    <span>做法</span>
+                </div>
+                <div class="tabBody" id="tabBody">
+                    <div class="current">襄阳特色牛肉面，牛杂面，牛油面是襄阳人最喜欢的早餐，它特点是这一辣二麻三鲜，味道可口，回味悠长，久食不厌。很多襄阳人如果三两天不吃牛油面，感觉口中无味，食欲大减。牛肉面做法简单：水开后将面下入锅内，煮开后捞起，加香油凉拌。吃时，撮一把放入搭勺，伸进沸水中冒热，然后加上熬好的牛肉、牛杂，辣子及其它佐料即可。吃牛肉面时，再喝一碗襄阳黄酒或是襄北豆奶，惬意而舒服。</div>
+                    <div>襄阳牛肉面、襄阳牛杂面最讲究的是：一是味香，二是味厚，三是有回味。油要香，牛肉要好吃。配料下粉面熬红油、卤牛肉、牛杂.襄阳牛肉面最大的机密是中药卤包，最为关键的是汤。吃的品的是面,面是搁了碱的,碱量适中,没有苦涩,只透着面香;前一晚备好了面,过了水,放油,拌好,摊在大大的竹簸箕里;第二天一清早,架起两口大锅,一锅白汤,是开水,咕咚咕咚冒泡,水汽腾腾,白雾雾的,冉冉上升,另一锅是红汤,是老板清早起了黑用牛油牛杂,放香料、辣椒熬出来的，上面浮着红汪汪的辣油，飘着青青的蒜苗段，纹丝不动。吃面的来了，喊上一声，二两面，一碗黄酒。老板抄起一团面，丢到长柄的竹笊篱中，再抓一把脆生生的绿豆芽，沉到滚滚的白汤里，不慌不忙地抖几下。老板的手势很好看，手腕上下颠动，手臂却不起伏，隔个半分钟，小手臂一扬，竹笊篱在空中划过一道小弧线，面稳稳地落在碗里，再兑上红汤，爱吃辣的人，老板给你多加一勺辣油，完了齐齐地端到桌上</div>
+                    <div>在传承发展过程中，襄阳牛肉面面临了其他地方特色传统食品一样的尴尬情况，固守襄阳区域，难于找到牛肉面的发展方向，于是任凭牛肉面作为襄阳人民的早餐而小打小闹地生存。
+                        香谷坊牛肉面应势而生。它继承和挖掘了襄阳牛肉面传统风味，考究食材原料配料，为襄阳人奉上经典地道的老襄阳味儿牛肉面。并希望申报成国家非物质文化遗产，传承的不仅仅是传统风味饮食，传承的更是襄阳城市文化。
+                        襄阳市襄城区文体局负责人表示，襄阳牛肉面申遗活动举办的非常好，已同意此项活动，并在逐级上报，争取将香谷坊老襄阳牛肉面申遗成功，将襄阳牛肉面推向全国。</div>
+                    <div>主料：豆油500克,大葱50克,生姜25克,酱油20克,料酒15克,白糖25克,花椒5克
+                        辅料：辣椒油5克,干红辣椒5克,味精5克,牛肉汤750毫升,精盐20克
+                        1、牛肉改成两个整齐的块;大葱去皮;洗净，剖开切成段;生姜切成片;干红辣椒洗净，去把、籽，切成1厘米长的节;芝麻焙好炒熟。
+                        2、牛肉用葱段、生姜片、精盐、料酒腌1小时，沸水旺火上笼蒸烂，取出晾凉，改切成4厘米长，1厘米宽的条。
+                        3、炸锅烧热，放入豆油，烧五成热，放入牛肉条，炸干水分，捞出，控油。
+                        4、锅内放豆油75克，烧热，放入花椒，炸糊后捞出，弃之。油稍凉一些，放入干红辣椒炸成紫黑色时，加入葱、姜炒一下，放入牛肉汤，加酱油、味精、牛肉条，用中等火力将汁收浓，汁尽时浇上辣椒油</div>
+                </div>
+            </div></article>
+            <aside id="sd">襄阳牛肉面是具有世界声誉的著名菜式，用料为优质牛肉，上等精面，纯味中草药，色泽红润，肉质肥而不腻，汤味香浓。襄阳牛肉面分为牛肉面，牛杂面两大系列。襄阳有很多当地闻名的牛肉面馆！
+                热腾腾的牛肉搭配鲜美的汤头，带劲的碱面条撒上香菜，葱花与红油……在襄阳，上至五星级酒店，下至大街小巷的食肆，都可以吃到牛肉面。牛肉面不仅美味，更深植襄阳饮食文化——
+                经常去襄阳的朋友，都喜欢争论：襄阳哪里的牛肉面最好吃？我第一次来襄阳，一位资深当地记者推荐我到的一家“香谷坊牛肉面”尝尝。“那是我吃过的最好的牛肉面。”
+                晚上我们专程去这家面店。面店洁净清爽，环境清雅，客满堂。等座的时候，环顾四周，装修古朴有质感，很有怀旧的感觉。当我们落座后，一碗热气腾腾的牛肉面端上来，忍不住大快朵颐，果然美味，面柔韧适度，汤香浓而不混浊，肉饱满多汁、入口即化。这碗牛肉面，至今在记忆中留香。
+                因为这次愉快的吃面经历，让我对襄阳的牛肉面多了关注，才发现牛肉面的发展历史浸透着浓浓的襄阳情感和文化。</aside>
+        </section>
+    </main>
+    <script>
+        var interval = 3000;
+
+        var box = document.getElementById('box');
+        var screen = box.children[0];
+        var ul = screen.children[0];
+        var ol = screen.children[1];
+
+        var arrLeft = document.getElementById('left');
+        var arrRight = document.getElementById('right');
+
+        var imgWidth = box.offsetWidth;
+
+        function setInnerText(element, content) {
+            if (typeof element.innerText === 'string')
+                element.innerText = content;
+            else
+                element.textContent = content;
+        }
+
+        function animate(element, target, callback) {
+            if (element.timerId)
+                clearInterval(element.timerId);
+
+            element.timerId = setInterval(function () {
+                var current = element.offsetLeft;
+                var step = 10;
+
+                if (current > target)
+                    step = - Math.abs(step);
+
+                if (Math.abs(current - target) <= Math.abs(step)) {
+                    element.style.left = target + 'px';
+                    clearInterval(element.timerId);
+                    if (callback)
+                        callback();
+                    return;
+                }
+                current += step;
+                element.style.left = current + 'px';
+            }, 20);
+        }
+
+        var count = ul.children.length;
+        for (var i = 0; i < count; ++i) {
+            var li = document.createElement('li');
+            setInnerText(li, i + 1);
+            ol.appendChild(li);
+
+            li.index = i;
+
+            li.onclick = liClick;
+        }
+
+        ol.children[0].style.backgroundColor = 'dodgerblue';
+
+        box.onmouseenter = function () {
+            arrLeft.style.display = 'block';
+            arrRight.style.display = 'block';
+            clearInterval(timerId);
+        }
+        box.onmouseleave = function () {
+            arrLeft.style.display = "none";
+            arrRight.style.display = "none";
+            timerId = setInterval(function () {
+                arrRight.click();
+            }, interval);
+        }
+
+        function liClick() {
+            animate(ul, -this.index * imgWidth);
+
+            for (i = 0; i < count; ++i)
+                ol.children[i].style.backgroundColor = '';
+            this.style.backgroundColor = 'dodgerblue';
+            index = this.index;
+        }
+
+        var cloneLi = ul.children[0].cloneNode(true);
+        ul.appendChild(cloneLi);
+
+        var index = 0;
+        arrRight.onclick = function () {
+            if (index === count) {
+                index = 0;
+                ul.style.left = '0px';
+            }
+
+            ++index;
+            if (index < count) {
+                ol.children[index].click();
+            } else {
+                animate(ul, -index * imgWidth);
+                for (i = 0; i < count; ++i)
+                    ol.children[i].style.backgroundColor = '';
+                ol.children[0].style.backgroundColor = 'dodgerblue';
+            }
+        }
+
+        arrLeft.onclick = function () {
+            if (index === 0) {
+                index = count;
+                ul.style.left = -index * imgWidth + 'px';
+            }
+            --index;
+            ol.children[index].click();
+        }
+
+        var timerId = setInterval(function () {
+            arrRight.click();
+        }, interval);
+        var spans = document.querySelectorAll("#tabName span");
+        var divs = document.querySelectorAll("#tabBody div");
+
+        var allNoCurrent = function() {
+            for (var i = 0, len = spans.length; i < len; ++i) {
+                spans[i].className = "";
+                divs[i].className = "";
+            }
+        }
+
+        for (var i = 0, len = spans.length; i < len; ++i) {
+            spans[i].setAttribute("index", i);
+            spans[i].onmouseover = function() {
+                allNoCurrent();
+                this.className = "current";
+                var curr = parseInt(this.getAttribute("index"));
+                divs[curr].className = "current";
+            }
+        }
+    </script>
+</body>
+
+</html>

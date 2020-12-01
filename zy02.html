@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>百度一下，你就知道</title>
+    <style>
+        body {
+            position: relative;
+            padding-bottom: 0;
+            height: 100%;
+            min-height: 600px;
+            margin: 0px;
+            list-style: none;
+        }
+
+        .top {
+            position: relative;
+            z-index: 1;
+            width:100% ;
+            height: 60px;
+        }
+
+        .top :hover {
+            color: #315efb;
+            text-decoration: none;
+        }
+
+        .head-left {
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 100;
+            height: 60px;
+            padding-left: 24px;
+        }
+
+        .head-right {
+            position: absolute;
+            right: -54px;
+            top: 0;
+            z-index: 100;
+            height: 60px;
+            padding-right: 24px;
+            margin-right: 24px;
+            display: inline-block;
+        }
+
+        .denglu {
+            float: left;
+            color: #fff !important;
+            background-color: #4e71f2;
+            height: 24px;
+            width: 48px;
+            line-height: 24px;
+            overflow: hidden;
+            font-family: inherit;
+            font-weight: 400;
+            text-align: center;
+            vertical-align: middle;
+            outline: 0;
+            border: 0;
+            border-radius: 6px;
+            padding: 0;
+        }
+
+        .zuo {
+            float: left;
+        }
+
+        .you {
+            float: left;
+        }
+
+        a {
+            text-decoration: none;
+            color: #222;
+            margin-right: 31px;
+            margin-top: 19px;
+            position: relative;
+            text-align: center;
+            font: 13px/23px Arial, sans-serif;
+        }
+
+        .middle {
+            height: 60%;
+            min-height: 185px;
+            max-height: 310px;
+            position: relative;
+            z-index: 0;
+            text-align: center;
+        }
+
+        .b {
+            margin-top: 23px;
+            margin-left: -17px;
+        }
+
+        #c {
+            height: 16px;
+            padding: 12px 16px;
+            font-size: 16px;
+            margin: 0;
+            vertical-align: top;
+            outline: 0;
+            box-shadow: none;
+            border-radius: 10px 0 0 10px;
+            border: 2px solid #c4c7ce;
+            background: #fff;
+            color: #222;
+            overflow: hidden;
+            width: 480px !important;
+            padding-right: 48px !important
+        }
+
+        #e {
+            cursor: pointer;
+            width: 108px;
+            height: 44px;
+            line-height: 45px;
+            padding: 0;
+            background: 0 0;
+            background-color: #4e6ef2;
+            border-radius: 0 10px 10px 0;
+            font-size: 17px;
+            color: #fff;
+            box-shadow: none;
+            font-weight: 400;
+            border: none;
+            outline: 0;
+        }
+
+        #d {
+            margin-top: -28px;
+            background: #fff url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/searchbox/nicon-10750f3f7d.png) no-repeat;
+            background-position-x: 0%;
+            background-position-y: -48px;
+            width: 24px;
+            height: 20px;
+            z-index: 1;
+            position: absolute;
+            right: 570px;
+            top: 195px;
+        }
+
+        .footster {
+            text-align: center;
+            width: 100%;
+            min-width: 1250px;
+            position: fixed;
+            z-index: 302;
+            bottom: 0;
+            left: 0;
+            height: 40px;
+            overflow: hidden;
+            zoom: 1;
+            margin: 0;
+            background-color: #fbfbfb;
+            text-align: left;
+            line-height: 40px;
+        }
+
+        .fleft {
+            float: left;
+        }
+
+        .fright {
+            float: right;
+            color: #bbb;
+            font-size: 12px;
+            font-family: "PingFang SC", Arial, "Microsoft YaHei", sans-serif;
+        }
+
+        .color {
+            font-size: 12px;
+            text-decoration: none;
+            color: #9195a3;
+        }
+
+        .la {
+            display: inline;
+            margin-right: 20px;
+            margin-left: 24px;
+        }
+
+        .l {
+            margin-left: 24px;
+            display: inline;
+            margin-right: -9px;
+        }
+
+        .milldetitle {
+            height: 24px;
+            width: 100%;
+            margin-bottom: 4px;
+        }
+
+        .bdrb {
+            font: 14px/24px Arial, sans-serif;
+            float: left;
+            margin-left: 440px;
+            /* margin-top: 57px; */
+            height: 24px;
+        }
+
+        .bdrbhyh {
+            cursor: pointer;
+            font: 13px/23px Arial, sans-serif;
+            color: #9195a3;
+            text-align: center;
+            margin-top: 57px
+        }
+
+        .bdrb-hyh:hover {
+            color: #315efb;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topmiddle">
+        <div class="top">
+            <div class="head-left">
+                <a class="you" href="http://news.baidu.com">新闻</a>
+                <a class="you" href="http://www.hao123.com">hao123</a>
+                <a class="you" href="http://map.baidu.com">地图</a>
+                <a class="you" href="http://v.baidu.com">视频</a>
+                <a class="you" href="http://tieba.baidu.com">贴吧</a>
+                <a class="you" href="http://xueshu.baidu.com">学术</a>
+                <a class="you" href="http://www.baidu.com/more/">更多</a>
+            </div>
+            <span class="head-right">
+                <a class="zuo" href="http://www.baidu.com/gaoji/preferences.html" >设置</a>
+                <a class="denglu"
+                    href="https://passport.baidu.com/v2/?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2F">登录</a>
+            </span>
+        </div>
+        <div class="middle">
+            <div>
+                <img class="b" src="https://www.baidu.com/img/bd_logo1.png" alt="" height="129" width="270">
+            </div>
+            <div>
+                <input id="c" type="text" style="margin-right:-10px">
+                <div id="d"></div><span id="e"><button id="e">百度一下</button></span>
+            </div>
+        </div>
+    </div>
+    <div class="milldetitle">
+        <div class="bdrb">百度热榜</div>
+        <div class="bdrbhyh">换一换</div>
+    </div>
+    <div class="footster">
+        <div class="fleft">
+            <p class="l">
+                <a class="color" href="#">设为首页</a>
+            </p>
+            <p class="l">
+                <a class="color" href="#">关于百度</a>
+            </p>
+            <p class="l">
+                <a class="color" href="#">About baidu</a>
+            </p>
+            <p class="l">
+                <a class="color" href="#">百度营销</a>
+            </p>
+            <p class="l">
+                <a class="color" href="#">使用百度前必读</a>
+            </p>
+            <p class="l">
+                <a class="color" href="#">意见反馈</a>
+            </p>
+            <p class="la">
+                <a class="color" href="#">帮助中心</a>
+            </p>
+        </div>
+        <div class="fright">
+            <span class="l">©2020 Baidu</span>
+            <span class="l">(京)-经营性-2017-0020</span>
+            <span class="l">京公网安备11000002000001号</span>
+            <span class="la">京ICP证030173号</span>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
